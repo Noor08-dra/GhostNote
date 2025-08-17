@@ -1,0 +1,82 @@
+
+.navbar *{
+
+    font-family:'inter',serif !important;
+}
+.navbar{
+    background-color:#121212;
+    color:#BF5B04 !important;
+}
+.navbar-brand{
+    font-family: 'Playfair Display' !important;
+}
+
+.message-area{
+    font-family:'Lora',serif !important;
+    background-color:#F8F9FA !important;
+    color:#121212 !important;
+    border-color:#F8F9FA !important;
+}
+.modal-title{
+    color:#121212 !important;
+}
+
+.search-icon{
+    width:32px;
+    height:32px;
+}
+.search-field{
+    height:36px;
+}
+
+.main-body{
+    font-family:'Lora',serif !important;
+}
+.title{
+    color:#121212 !important;
+}
+.app-intro{
+    color:#6C757D !important;
+}
+
+.submit-btn{
+    background-color: #007BFF !important;
+    opacity:0.7;
+    transition:opacity 0.15s;
+}
+.submit-btn:hover{
+     background-color: #007BFF !important;
+     opacity:0.9;
+}
+.submit-btn:active{
+     background-color: #007BFF !important;
+     opacity:1;
+}
+.to-recipient{
+    color:#6C757D !important;
+}
+
+.message-button{
+    background-color:#1B6B6F !important;
+    opacity:0.8;
+    transition:opacity 0.15s;
+    color: #FFFFFF !important;
+}
+.message-button:hover{
+    background-color:#1B6B6F !important;
+    opacity:0.9;
+}
+.message-button:active{
+    background-color:#1B6B6F !important;
+    opacity:1;
+}
+.message-body{
+  background: rgba(30, 30, 30, 0.9) !important;
+  color: #f1f1f1 !important;
+  max-width: 500px !important;
+  min-height: 120px !important;
+  padding: 20px !important;
+  border-radius: 14px !important;
+  margin: 0 auto 1.5rem auto !important;
+  backdrop-filter: blur(8px) !important;
+  }
