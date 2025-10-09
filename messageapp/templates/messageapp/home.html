@@ -1,14 +1,21 @@
+{% extends "messageapp/base.html" %}
+{%block title%} Home {%endblock%}
+{%block content%}
+ <div class="d-flex justify-content-center align-items-center min-vh-100">
+  <div class="main-body container">
+    <h1 class="display-4 fw-bold text-center title mb-4">
+    A quiet place for your unheard thoughts
+  </h1>
+  <div class="row justify-content-center mt-5">
+    <div class="col-lg-6">
+      <p class="lead text-center text-muted app-intro">
+        Leave a message for anyone simply by using their name. They, or anyone
+        else, can then search for that name to find the notes you've left
+        behind. It's open and honest expression, delivered.
+      </p>
+    </div>
+  </div>
+ </div>
+ </div>
 
-<!DOCTYPE html>
-<html>
-  <head>
-   {% include "messageapp/partials/messageapp/head.html" %}
-  </head>
-
-  <body>
-       {% include "messageapp/partials/messageapp/navbar.html" %}
-       {% include "messageapp/partials/messageapp/main-body.html" %}
-       {% include "messageapp/partials/messageapp/modal.html" %}
-       {% include "messageapp/partials/messageapp/js-script.html" %}
-  </body>
-</html>
+{%endblock%}

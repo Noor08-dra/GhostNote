@@ -17,7 +17,7 @@
     color:#121212 !important;
     border-color:#F8F9FA !important;
 }
-.modal-title{
+.card-title{
     color:#121212 !important;
 }
 
@@ -70,7 +70,8 @@
     background-color:#1B6B6F !important;
     opacity:1;
 }
-.message-body{
+.card.message-body
+{
   background: rgba(30, 30, 30, 0.9) !important;
   color: #f1f1f1 !important;
   max-width: 500px !important;
@@ -80,3 +81,4 @@
   margin: 0 auto 1.5rem auto !important;
   backdrop-filter: blur(8px) !important;
   }
+

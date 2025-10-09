@@ -1,13 +1,14 @@
 
 .navbar *{
-
     font-family:'inter',serif !important;
 }
+
 .navbar{
     background-color:#121212;
     color:#BF5B04 !important;
 }
-.navbar-brand{
+.navbar-brand, 
+.nav-link {
     font-family: 'Playfair Display' !important;
 }
 

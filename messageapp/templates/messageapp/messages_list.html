@@ -1,0 +1,40 @@
+{% extends "messageapp/base.html" %}
+{% block title %}Messages{% endblock %} 
+{% block content %}
+
+<div class="d-flex justify-content-center align-items-center min-vh-100">
+  <div class="container">
+    {% if searched_name %} {# --- Search Results Section --- #}
+    <h3 class="text-muted text-center mb-5">
+      Showing results for:
+      <strong class="text-dark">{{ searched_name }}</strong>
+    </h3>
+
+    <div class="row">
+      {% for msg in msgs %} {# Include the new, redesigned card partial #} 
+      {% include "messageapp/partials/_message_card_with_modal.html" %} {% empty %}
+      <div class="col-12">
+        <p class="text-muted text-center fs-4">Sorry, no messages found.</p>
+      </div>
+      {% endfor %}
+    </div>
+
+    {% else %} {# --- Welcome Message Section --- #}
+    <div class="d-flex justify-content-center align-items-center min-vh-100">
+       
+      <div class="card shadow-md message-body">
+        <div class="card-body">
+          <h1 class="text-center">Welcome to the Message Board!</h1>
+
+          <p class="text-center lead">
+            Use the search bar above to find messages sent to someone or click
+            on the compose button to write new messages.
+          </p>
+        </div>
+      </div>
+    </div>
+    {% endif %}
+  </div>
+</div>
+
+{% endblock content %}
