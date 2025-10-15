@@ -5,3 +5,4 @@ django-allauth==65.11.2
 sqlparse==0.5.3
 python-dotenv==1.1.0   # if you use environment variables for settings
 requests==2.32.3        # if your project uses HTTP requests
+gunicorn==23.0.0
